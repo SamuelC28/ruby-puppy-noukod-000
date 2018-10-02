@@ -18,6 +18,7 @@ class Dog
   end
 
   def name
-    puts "#{Dog.name}"
+    name.each do |dog|
+      puts "#{dog.name}"
   end
 end
