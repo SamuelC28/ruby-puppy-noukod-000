@@ -17,7 +17,7 @@ class Dog
     @@all.clear
   end
 
-  def name
+  def name(name)
     name.each do |dog|
       puts "#{dog.name}"
   end
